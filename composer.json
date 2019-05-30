@@ -1,0 +1,28 @@
+{
+    "name": "harristech/acl",
+    "description": "Access Control Interface For Spatie Permission System",
+    "authors": [
+        {
+            "name": "Peter Harris",
+            "email": "peteharris401@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^2.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Harristech\\ACL\\": "src/"
+        },
+        "classmap": [
+            "seeds/"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Harristech\\ACL\\ACLServiceProvider"
+            ]
+        }
+    }
+}

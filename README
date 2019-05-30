@@ -1,0 +1,4 @@
+# Access control management interface
+
+```php 
+php artisan db:seed --class RoleAndPermissionTableSeeder```
